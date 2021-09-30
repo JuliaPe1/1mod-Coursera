@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Gluten', cursive;
+}
+
+h1 {
+    margin: 50px;
+    text-align: center;
+}
+
+.products {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.product {
+    border: 2px solid black;
+    background: darkgray;
+    margin-left: 20px;
+    width: 30%;
+} 
+
+.product-title {
+    float: right;
+    width: 80px;
+    text-align: center;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+#one {
+    background: pink;
+}
+
+#two {
+    background: red;
+}
+
+#three {
+    background: rgb(218, 193, 85);
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    
+    .product {
+        width: 32%;
+        float: left;
+    }
+    /* display: grid;
+    grid */
+}
